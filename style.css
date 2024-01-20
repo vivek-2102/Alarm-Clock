@@ -1,4 +1,4 @@
-body{
+/* body{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -12,11 +12,91 @@ body{
     margin-top: 20px;
     display: flex;
     flex-direction: row;
-    /* flex-direction: column; */
+    // flex-direction: column; 
     justify-content: center;
     align-items: center;
 }
 .resize{
  margin-left: 10px;
     height: 20px;
-}
+} */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+    margin: 20px;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  h2 {
+    color: #333;
+  }
+  
+  h3 {
+    color: #333;
+    margin-top: 20px;
+  }
+  
+  #inp {
+    padding: 8px;
+  }
+  
+  button {
+    padding: 8px 12px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .inp {
+    margin-top: 10px;
+    padding: 8px;
+  }
+  
+  #add {
+    margin-top: 10px;
+    padding: 8px 12px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #add:hover {
+    background-color: #218838;
+  }
+  
+  .btn-container {
+    display: inline-block;
+    margin-top: 10px;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .getData {
+    margin: 0;
+  }
+  
+  .resize {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+  }
+  
+  .resize:hover {
+    background-color: #c82333;
+  }
+  
